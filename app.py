@@ -2,7 +2,7 @@ import streamlit as st
 from resume_parser import extract_text_from_pdf
 from matching import rank_resumes
 
-# Custom CSS Styling
+# CSS Styling
 st.markdown("""
     <style>
     body {
@@ -81,7 +81,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# App title (centered)
+# App title
 st.markdown("""
 <div style='text-align: center;'>
     <h1>📄 SmartScreenHR</h1>
@@ -117,7 +117,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# Main: Centered Button
+# Main
 st.markdown('<div class="center-button">', unsafe_allow_html=True)
 rank_clicked = st.button("✨ Rank Resumes")
 st.markdown('</div>', unsafe_allow_html=True)
