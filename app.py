@@ -84,7 +84,7 @@ st.markdown("""
 # App title (centered)
 st.markdown("""
 <div style='text-align: center;'>
-    <h1>📄 JobFit Analyzer</h1>
+    <h1>📄 SmartScreenHR</h1>
 </div>
 """, unsafe_allow_html=True)
 
